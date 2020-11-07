@@ -1,0 +1,55 @@
+.profile-sec {
+    background-color: #252F3A;
+    color: #fff;
+}
+
+.icons-row p i {
+    color: #fff !important;
+    font-size: 40px !important;
+    margin-right: 10px;
+}
+
+.img-row {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.icons-row {
+    box-shadow: 2px 2px 15px #000, -2px -2px 15px #000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-row .btn {
+    padding: 10px 20px;
+}
+
+.first-div ,.sec-div{
+    float: left;
+    /* border-right: 3px solid #000; */
+}
+
+.first-div p,
+.sec-div p {
+    text-indent: 10px;
+}
+
+.first-div h4,
+.sec-div h4 {
+    color: #26ae60;
+}
+
+@media(max-width: 767px) {
+    .first-div {
+        border-right: none;
+    }
+    .about1{
+        display:none;
+    }
+    .about2{
+        display:none;
+    }
+}

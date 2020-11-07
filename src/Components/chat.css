@@ -1,0 +1,66 @@
+#page-content-wrapper .chat-div img{
+    margin-top: 5vh;
+    height: 60vh;
+}
+
+#page-content-wrapper .chatRoom{
+    padding: 0px !important;
+}
+
+.menuDisplayed #page-content-wrapper .chatRoom{
+    padding-left: 15px !important;
+}
+
+.chatRoom-wrapper{
+  padding-left: 75px !important;
+  padding-right: 0px !important;
+  padding-bottom: 0px !important;
+  overflow: hidden;
+}
+
+.chatRoom .chat-box {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  height: 84vh;
+  padding:0px 25px;
+}
+
+@media(max-height:750px){
+  .chatRoom .chat-box {
+  height: 83vh;
+}
+}
+
+@media(max-height:670px){
+  .chatRoom .chat-box {
+  height: 80vh;
+}
+}
+
+@media(max-height:570px){
+  .chatRoom .chat-box {
+  height: 78vh;
+}
+}
+
+.chatRoom input{
+  position: absolute;
+  bottom: 0;
+}
+
+.chatRoom input::placeholder {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #05c46b;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}

@@ -1,0 +1,20 @@
+.decision i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.decision i:hover.accept {
+    color: green;
+}
+
+.decision i:hover.reject {
+    color: red;
+}
+
+.decision i.cancel{
+    text-align: center;
+}
+
+.request-svg{
+    height: 75vh;
+}
